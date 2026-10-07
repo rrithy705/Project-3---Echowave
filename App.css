@@ -1,0 +1,35 @@
+.app {
+    background:
+        linear-gradient(rgba(3, 1, 64, 0.55), rgba(3, 1, 64, 0.8)),
+        url('./assets/echowave-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header {
+    height: 30vh;
+    width: 85vw;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+}
+
+.header-buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-buttons button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
